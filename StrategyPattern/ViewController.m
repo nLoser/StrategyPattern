@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "Person.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,18 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    Person * jobs = [Person new];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    [jobs setTravelingWay:[ByTrainTravelingWay new]];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    [jobs setTravelingWay:[ByCycleTravelingWay new]];
+    
+    
+    [jobs setTravelingLine:[ShortTravelingline new]];
 }
 
 - (void)didReceiveMemoryWarning {

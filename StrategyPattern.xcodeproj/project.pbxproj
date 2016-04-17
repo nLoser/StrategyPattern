@@ -15,6 +15,16 @@
 		A93CF4B31CB64517007958BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A93CF4B11CB64517007958BE /* LaunchScreen.storyboard */; };
 		A93CF4BE1CB64517007958BE /* StrategyPatternTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4BD1CB64517007958BE /* StrategyPatternTests.m */; };
 		A93CF4C91CB64517007958BE /* StrategyPatternUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4C81CB64517007958BE /* StrategyPatternUITests.m */; };
+		A93CF4DE1CB645E0007958BE /* TravelingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4DD1CB645E0007958BE /* TravelingWay.m */; };
+		A93CF4E11CB646CF007958BE /* TravelingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4E01CB646CF007958BE /* TravelingLine.m */; };
+		A93CF4E41CB64711007958BE /* ByCycleTravelingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4E31CB64711007958BE /* ByCycleTravelingWay.m */; };
+		A93CF4E71CB64744007958BE /* TakeCarTravelingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4E61CB64744007958BE /* TakeCarTravelingWay.m */; };
+		A93CF4EA1CB64761007958BE /* ByTrainTravelingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4E91CB64761007958BE /* ByTrainTravelingWay.m */; };
+		A93CF4ED1CB64792007958BE /* TakePlaneTravelingWay.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4EC1CB64792007958BE /* TakePlaneTravelingWay.m */; };
+		A93CF4F01CB647D0007958BE /* ShortTravelingline.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4EF1CB647D0007958BE /* ShortTravelingline.m */; };
+		A93CF4F31CB6481B007958BE /* MiddleTravelingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4F21CB6481B007958BE /* MiddleTravelingLine.m */; };
+		A93CF4F61CB64829007958BE /* LongTravelingLine.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4F51CB64829007958BE /* LongTravelingLine.m */; };
+		A93CF4F91CB64858007958BE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A93CF4F81CB64858007958BE /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +61,26 @@
 		A93CF4C41CB64517007958BE /* StrategyPatternUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StrategyPatternUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A93CF4C81CB64517007958BE /* StrategyPatternUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StrategyPatternUITests.m; sourceTree = "<group>"; };
 		A93CF4CA1CB64517007958BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A93CF4DC1CB645E0007958BE /* TravelingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelingWay.h; sourceTree = "<group>"; };
+		A93CF4DD1CB645E0007958BE /* TravelingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelingWay.m; sourceTree = "<group>"; };
+		A93CF4DF1CB646CF007958BE /* TravelingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TravelingLine.h; sourceTree = "<group>"; };
+		A93CF4E01CB646CF007958BE /* TravelingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TravelingLine.m; sourceTree = "<group>"; };
+		A93CF4E21CB64711007958BE /* ByCycleTravelingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByCycleTravelingWay.h; sourceTree = "<group>"; };
+		A93CF4E31CB64711007958BE /* ByCycleTravelingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByCycleTravelingWay.m; sourceTree = "<group>"; };
+		A93CF4E51CB64744007958BE /* TakeCarTravelingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakeCarTravelingWay.h; sourceTree = "<group>"; };
+		A93CF4E61CB64744007958BE /* TakeCarTravelingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakeCarTravelingWay.m; sourceTree = "<group>"; };
+		A93CF4E81CB64761007958BE /* ByTrainTravelingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ByTrainTravelingWay.h; sourceTree = "<group>"; };
+		A93CF4E91CB64761007958BE /* ByTrainTravelingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ByTrainTravelingWay.m; sourceTree = "<group>"; };
+		A93CF4EB1CB64792007958BE /* TakePlaneTravelingWay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TakePlaneTravelingWay.h; sourceTree = "<group>"; };
+		A93CF4EC1CB64792007958BE /* TakePlaneTravelingWay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TakePlaneTravelingWay.m; sourceTree = "<group>"; };
+		A93CF4EE1CB647D0007958BE /* ShortTravelingline.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShortTravelingline.h; sourceTree = "<group>"; };
+		A93CF4EF1CB647D0007958BE /* ShortTravelingline.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShortTravelingline.m; sourceTree = "<group>"; };
+		A93CF4F11CB6481B007958BE /* MiddleTravelingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiddleTravelingLine.h; sourceTree = "<group>"; };
+		A93CF4F21CB6481B007958BE /* MiddleTravelingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiddleTravelingLine.m; sourceTree = "<group>"; };
+		A93CF4F41CB64829007958BE /* LongTravelingLine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LongTravelingLine.h; sourceTree = "<group>"; };
+		A93CF4F51CB64829007958BE /* LongTravelingLine.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LongTravelingLine.m; sourceTree = "<group>"; };
+		A93CF4F71CB64858007958BE /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A93CF4F81CB64858007958BE /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +111,7 @@
 		A93CF4971CB64517007958BE = {
 			isa = PBXGroup;
 			children = (
+				A93CF4D91CB64547007958BE /* Classes */,
 				A93CF4A21CB64517007958BE /* StrategyPattern */,
 				A93CF4BC1CB64517007958BE /* StrategyPatternTests */,
 				A93CF4C71CB64517007958BE /* StrategyPatternUITests */,
@@ -138,6 +169,49 @@
 				A93CF4CA1CB64517007958BE /* Info.plist */,
 			);
 			path = StrategyPatternUITests;
+			sourceTree = "<group>";
+		};
+		A93CF4D91CB64547007958BE /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A93CF4DA1CB64563007958BE /* PersonSetting */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+		A93CF4DA1CB64563007958BE /* PersonSetting */ = {
+			isa = PBXGroup;
+			children = (
+				A93CF4DB1CB64594007958BE /* Strategy */,
+				A93CF4F71CB64858007958BE /* Person.h */,
+				A93CF4F81CB64858007958BE /* Person.m */,
+			);
+			name = PersonSetting;
+			sourceTree = "<group>";
+		};
+		A93CF4DB1CB64594007958BE /* Strategy */ = {
+			isa = PBXGroup;
+			children = (
+				A93CF4DC1CB645E0007958BE /* TravelingWay.h */,
+				A93CF4DD1CB645E0007958BE /* TravelingWay.m */,
+				A93CF4E21CB64711007958BE /* ByCycleTravelingWay.h */,
+				A93CF4E31CB64711007958BE /* ByCycleTravelingWay.m */,
+				A93CF4E51CB64744007958BE /* TakeCarTravelingWay.h */,
+				A93CF4E61CB64744007958BE /* TakeCarTravelingWay.m */,
+				A93CF4E81CB64761007958BE /* ByTrainTravelingWay.h */,
+				A93CF4E91CB64761007958BE /* ByTrainTravelingWay.m */,
+				A93CF4EB1CB64792007958BE /* TakePlaneTravelingWay.h */,
+				A93CF4EC1CB64792007958BE /* TakePlaneTravelingWay.m */,
+				A93CF4DF1CB646CF007958BE /* TravelingLine.h */,
+				A93CF4E01CB646CF007958BE /* TravelingLine.m */,
+				A93CF4EE1CB647D0007958BE /* ShortTravelingline.h */,
+				A93CF4EF1CB647D0007958BE /* ShortTravelingline.m */,
+				A93CF4F11CB6481B007958BE /* MiddleTravelingLine.h */,
+				A93CF4F21CB6481B007958BE /* MiddleTravelingLine.m */,
+				A93CF4F41CB64829007958BE /* LongTravelingLine.h */,
+				A93CF4F51CB64829007958BE /* LongTravelingLine.m */,
+			);
+			name = Strategy;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,9 +344,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A93CF4ED1CB64792007958BE /* TakePlaneTravelingWay.m in Sources */,
 				A93CF4AB1CB64517007958BE /* ViewController.m in Sources */,
 				A93CF4A81CB64517007958BE /* AppDelegate.m in Sources */,
+				A93CF4E11CB646CF007958BE /* TravelingLine.m in Sources */,
+				A93CF4DE1CB645E0007958BE /* TravelingWay.m in Sources */,
+				A93CF4F01CB647D0007958BE /* ShortTravelingline.m in Sources */,
+				A93CF4E41CB64711007958BE /* ByCycleTravelingWay.m in Sources */,
 				A93CF4A51CB64517007958BE /* main.m in Sources */,
+				A93CF4EA1CB64761007958BE /* ByTrainTravelingWay.m in Sources */,
+				A93CF4F91CB64858007958BE /* Person.m in Sources */,
+				A93CF4F31CB6481B007958BE /* MiddleTravelingLine.m in Sources */,
+				A93CF4F61CB64829007958BE /* LongTravelingLine.m in Sources */,
+				A93CF4E71CB64744007958BE /* TakeCarTravelingWay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
